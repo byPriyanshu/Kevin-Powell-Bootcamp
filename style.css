@@ -212,3 +212,13 @@ div[class ^= "sidebar-recent-post"]{
     flex-direction: column;
     gap: 10px;
 }
+
+@media screen and (max-width: 900px){
+    .container-mid{
+        width: 90%;
+        flex-direction: column;
+    }
+    .article-recent{
+        flex-direction: column;
+    }
+}
