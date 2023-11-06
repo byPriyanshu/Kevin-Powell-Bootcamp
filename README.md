@@ -1,1 +1,1 @@
-site is available in priyanchu.github.io/kevin-powell-bootcamp
+site is available in https://priyanchu.github.io/Kevin-Powell-Bootcamp/
