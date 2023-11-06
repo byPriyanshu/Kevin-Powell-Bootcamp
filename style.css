@@ -75,3 +75,60 @@ header{
         margin: 0px 15px;
     }
 }
+
+
+/************* Middle Section ****************/
+.container-mid{
+    width: 60%;
+    padding: 30px 0;
+    margin: 0px auto;
+    display: flex;
+}
+.main{
+    flex-basis: 70%;
+}
+.article-image{
+    width: 100%;
+}
+.article-image img{
+    width: 100%;
+    height: 20.7rem;
+    object-fit: cover;
+}
+.main .article-date{
+    display: block;
+    color: #707070;
+    font-size: 1.4rem;
+    padding: 1em 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.article-heading{
+    color: #143774;
+    font-family: var(--ff-lora);
+    font-size: 2.1rem;
+    font-weight: var(--fw-medium);
+}
+.article-paragraph{
+    color: #707070;
+    font-size: 1.5rem;
+    padding: 20px 0;
+    font-family: var(--ff-ubuntu);
+    font-weight: var(--fw-regular);
+    letter-spacing: 0.02em;
+    line-height: 1.4em;
+}
+.article-paragraph a{
+    color: #1792D2;
+}
+.article-link{
+    color: #1792D2;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+    font-family: var(--ff-ubuntu);
+    font-size: 1.2rem;
+    letter-spacing: 0.2em;
+}
+aside{
+    flex-basis: 30%;
+}
