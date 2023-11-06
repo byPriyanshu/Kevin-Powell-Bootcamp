@@ -144,6 +144,9 @@ header{
 .article-recent .article-second{
     flex-basis: 70%;
 }
+.article-recent:nth-last-child(1) .article-first img{
+    object-position: -10px 0px;
+}
 
 
 /************* Side Bar **************/
