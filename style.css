@@ -64,3 +64,14 @@ header{
 .nav-items ul li a:focus{
     color: #1475B2;
 }
+
+@media screen and (max-width: 820px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .nav-items ul li{
+        margin: 0px 15px;
+    }
+}
