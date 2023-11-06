@@ -1,6 +1,13 @@
 /*************** Setup ****************/
 :root{
     font-size: 62.5%;
+    
+    --ff-lora: 'Lora', serif;
+    --ff-ubuntu: 'Ubuntu', sans-serif;
+
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-bold: 700;
 }
 
 /*********** Universal **************/
@@ -9,3 +16,5 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*********** NavBar ************/
