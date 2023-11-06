@@ -72,7 +72,10 @@ header{
         gap: 20px;
     }
     .nav-items ul li{
-        margin: 0px 15px;
+        margin: 10px 15px;
+    }
+    .nav-items ul{
+        flex-direction: column;
     }
 }
 
