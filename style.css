@@ -18,3 +18,49 @@
 }
 
 /*********** NavBar ************/
+header{
+    padding: 3em 0;
+    background-color: #F8F6F8;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.nav-logo h2{
+    font-size: 2.5rem;
+    font-family: var(--ff-lora);
+    font-weight: var(--fw-regular);
+}
+.nav-logo p{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #1475B2;
+    font-family: var(--ff-ubuntu);
+    font-weight: var(--fw-bold);
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+.nav-items ul{
+    display: flex;
+    align-items: center;
+}
+.nav-items ul li{
+    list-style-type: none;
+    margin-left: 30px;
+}
+.nav-items ul li a{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #605F60;
+    font-family: var(--ff-ubuntu);
+    font-weight: var(--fw-bold);
+}
+.nav-items ul li a:hover,
+.nav-items ul li a:focus{
+    color: #1475B2;
+}
