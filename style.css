@@ -222,3 +222,24 @@ div[class ^= "sidebar-recent-post"]{
         flex-direction: column;
     }
 }
+
+/******** Footer *********/
+footer{
+    background-color: #143774;
+    padding: 50px 0;
+    color: white;
+}
+footer p{
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: var(--fw-bold);
+    font-family: var(--ff-ubuntu);
+    opacity: 0.54;
+    line-height: 1.6em;
+}
+footer span{
+    display: block;
+    font-family: var(--ff-ubuntu);
+    font-weight: var(--fw-regular);
+    opacity: 0.54;
+}
