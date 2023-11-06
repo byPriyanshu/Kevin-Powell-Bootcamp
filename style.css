@@ -85,6 +85,9 @@ header{
     display: flex;
 }
 .main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     flex-basis: 70%;
 }
 .article-image{
@@ -98,7 +101,7 @@ header{
 .main .article-date{
     display: block;
     color: #707070;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     padding: 1em 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -128,6 +131,17 @@ header{
     font-family: var(--ff-ubuntu);
     font-size: 1.2rem;
     letter-spacing: 0.2em;
+}
+.article-recent{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.article-recent .article-first{
+    flex-basis: 30%;
+}
+.article-recent .article-second{
+    flex-basis: 70%;
 }
 aside{
     flex-basis: 30%;
